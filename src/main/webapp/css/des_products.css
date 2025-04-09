@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* Header y nav */
+header, nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #2d3142;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    top: 80px;
+    background-color: #4f5d75;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #bfc0c0;
+    background-color: #2d3142;
+    border: 2px solid #2d3142;
+    padding: 8px 12px;
+}
+
+/* Layout principal */
+.layout {
+    display: flex;
+    margin-top: 140px;
+    gap: 20px;
+}
+
+/* Filtros */
+.filters {
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #4f5d75;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2d3142;
+}
+
+/* Productos */
+.products {
+    width: 80%;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Fuerza 3 productos por fila */
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4f5d75;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li {
+    font-size: 1.1em;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

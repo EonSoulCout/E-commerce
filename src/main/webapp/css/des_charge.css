@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* Estilo para toda la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    text-align: center;
+}
+
+/* Contenedor del mensaje */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5em;
+    color: #2d3142;
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+h2 {
+    font-size: 1.5em;
+    color: #4f5d75;
+    margin-bottom: 30px;
+}
+
+/* Animación de construcción */
+.construction-icon {
+    font-size: 100px;
+    color: #f1c40f;
+    animation: rotate 2s infinite linear;
+    margin-bottom: 20px;
+}
+
+/* Animación para el icono */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Botón de regreso */
+.btn {
+    padding: 12px 30px;
+    background-color: #2d3142;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #4f5d75;
+}

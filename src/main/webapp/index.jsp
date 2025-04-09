@@ -4,7 +4,7 @@ pageEncoding="UTF-8"%>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>E-commerce</title>
+    <title>Nexared</title>
     <!-- Enlazar el archivo CSS -->
     <link href="css/desing.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,19 +12,18 @@ pageEncoding="UTF-8"%>
  <main>
  <!-- Header -->
  <header>
-    <h1>E-commerce</h1>
-    <h2 class="destacado">Nexared</h2>
+    <h1>Nexared</h1>
+    <h2 class="destacado">Infraestructura de Red</h2>
     <h4 id="favorito">Estructuramos redes, potenciamos conexiones</h4>
  </header>
 
  <!-- Navigation -->
  <nav>
-    <a href="consulta.jsp">Ver Productos</a>
-    <a href="categoria.jsp">Buscar Por Categoria</a>
-    <a href="services.jsp">Servicios</a>
-    <a href="login.jsp">Login</a>
-    <a href="aboutus.jsp">Sobre nosotros</a>
-    <a href="locate.jsp">Ubicación</a>
+    <a href="products.jsp">Ver Productos</a>
+    <a href="charge.jsp">Servicios</a>
+    <a href="charge.jsp">Login</a>
+    <a href="charge.jsp">Sobre nosotros</a>
+    <a href="charge.jsp">Ubicación</a>
     
  </nav>
 
